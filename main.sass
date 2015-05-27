@@ -1,0 +1,25 @@
+$playgroundSize : 250px
+$catcherWidth : 59px
+$catcherHeight : 30px
+$targetSize : 10px
+
+#playground
+  border: 1px solid black
+  width: $playgroundSize
+  height: $playgroundSize
+  position: relative
+  background: url('img/cobweb.png') repeat
+
+  div
+    position: absolute
+
+    &#catcher
+      background: url('spider.png')
+      width: $catcherWidth
+      height: $catcherHeight
+
+    &#target
+      width: $targetSize
+      height: $targetSize
+      left: 100px
+      top: 100px

@@ -1,0 +1,19 @@
+#playground {
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  background: url("img/cobweb.png") repeat; }
+  #playground div {
+    position: absolute; }
+    #playground div#catcher {
+      background: url("spider.png");
+      width: 59px;
+      height: 30px; }
+    #playground div#target {
+      width: 10px;
+      height: 10px;
+      left: 100px;
+      top: 100px; }
+
+/*# sourceMappingURL=main.css.map */
